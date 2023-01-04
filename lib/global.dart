@@ -1,0 +1,50 @@
+import 'dart:io';
+
+import 'package:flutter/material.dart';
+
+class Global{
+  static String? name;
+  static String? email;
+  static int? number;
+  static String? address;
+  static String? exp;
+  static String? des;
+  static String? birth;
+  static String? nation;
+  static String? group;
+  static List myLanguage = [];
+  static bool english = false;
+  static bool hindi = false;
+  static bool gujarati = false;
+  static String? course;
+  static String? interest;
+  static String? college;
+  static String? percentage;
+  static String? year;
+  static String? company;
+  static String? school;
+  static String? role;
+  static String? start;
+  static String? status;
+  static Color myColor1 = Colors.grey.shade500;
+  static Color myColor2 = Colors.black;
+  static bool enable = false;
+  static String? project;
+  static String? tech;
+  static String? description;
+  static String? roles;
+  static String? ref;
+  static String? desc;
+  static String? date;
+  static String? place;
+  static String? designation;
+  static String? institute;
+  static List technologies = [];
+  static List achievements = [];
+  static List skills = [];
+  static bool cLanguage = false;
+  static bool c = false;
+  static bool isTrue = false;
+  static bool flutter = false;
+  static File? file;
+}
